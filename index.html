@@ -1,27 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Packages </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Packages</title>
     <!-- Raw Css -->
-    <link rel="stylesheet" href="css/raw.css">
+    <link rel="stylesheet" href="css/raw.css" />
     <!-- Tailwind Css Framework -->
-    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/tailwind.css" />
     <!-- Bootstrap Css Framework -->
-    <link rel="stylesheet" href="sass/bootstrap.scss">
+    <link rel="stylesheet" href="sass/bootstrap.scss" />
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="sass/fontawesome.scss">
+    <!-- <link rel="stylesheet" href="sass/fontawesome.scss"> -->
+    <link
+      href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="node_modules/@fortawesome/fontawesome-free/css/brands.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="node_modules/@fortawesome/fontawesome-free/css/solid.min.css"
+      rel="stylesheet"
+    />
+
     <!-- Sweet Alert -->
-    <script src=""></script>
+    <script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Sweet Alert 2 -->
-    <script src=""></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <!-- Sweet Alert Functions  -->
+    <script src="js/sweetalert.js"></script>
     <!-- Izi Toast -->
-    <script src=""></script>
-</head>
-<body>
+    <link rel="stylesheet" href="node_modules/izitoast/dist/css/iziToast.min.css">
+    <script src="node_modules/izitoast/dist/js/iziToast.min.js"></script>
+    <!-- Izi Toast Functions  -->
+    <script src="js/izi_toast_alert.js"></script>
+  </head>
+  <body>
+    <!-- Custom Heading with Raw Css -->
     <div class="customDiv" id="cutomCenter">
-        
+      <h1 class="custom_header">Alhamduillah, Frontend Packages</h1>
+      <hr class="custo_hr" />
     </div>
-</body>
+
+    <!-- Tailwind Css Div Section -->
+    <div
+      class="center container text-center border-3 border-cyan-300 p-5 bg-cyan-100"
+    >
+      <h3>Tailwind CSS Framework</h3>
+      <hr class="bg-orange-100" />
+      <div class="container border-5 bg-cyan-200 text-center">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+          consequatur temporibus eos neque maiores! Quae aspernatur laborum eos
+          numquam incidunt veritatis sit dolores quod exercitationem sed? Alias
+          dolorum neque optio?
+        </p>
+      </div>
+    </div>
+
+    <!-- Boostrap CSS Framework  -->
+    <div class="container pt-9 bg-slate-300 text-center">
+      <h1>Bootstrap CSS Framework</h1>
+      <hr />
+      <div class="container text-center">
+        <button class="badge bg-primary">Bs5 Btn 1</button>
+        <button type="button" class="btn btn-outline-primary">Bs5 Btn2</button>
+      </div>
+    </div>
+
+    <!-- Font Awesome -->
+    <div class="container pt-9 bg-slate-300 text-center">
+      <h1>Font Awesome Icons</h1>
+      <hr />
+      <div class="container text-center">
+        <button class="badge bg-primary">
+          <i class="fa-regular fa-star fa-2xl"></i>
+        </button>
+        <button type="button" class="btn btn-outline-primary">
+          <i class="fa-solid fa-heart fa-2xl" style="color: #511f1f"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Sweet Alert  -->
+    <div class="container pt-9 bg-green-300 text-center">
+      <h1>Sweet Alert</h1>
+      <hr />
+      <div class="container text-center">
+        <button class="badge bg-primary" onclick="sweetAlert01()">
+          sweetAlert 01
+        </button>
+        <button type="button" class="btn btn-outline-primary">
+          sweetAlert 02
+        </button>
+      </div>
+    </div>
+
+    <!-- Sweet Alert 2  -->
+    <div class="container pt-9 bg-green-300 text-center">
+      <h1>Sweet Alert 2</h1>
+      <hr />
+      <div class="container text-center">
+        <button class="badge bg-primary" onclick="sweetAlertTwo01()">
+          sweetAlertTwo 02
+        </button>
+        <button type="button" class="btn btn-outline-primary">
+          sweetAlertTwo 02
+        </button>
+      </div>
+    </div>
+
+     <!-- Izi Toaster   -->
+     <div class="container pt-9 bg-green-300 text-center">
+        <h1>Izi Toaster </h1>
+        <hr />
+        <div class="container text-center">
+          <button class="badge bg-primary" onclick="iziToster01()">
+            iziToster 01
+          </button>
+          <button type="button" class="btn btn-outline-primary">
+            iziToster 02
+          </button>
+        </div>
+      </div>
+  </body>
 </html>
