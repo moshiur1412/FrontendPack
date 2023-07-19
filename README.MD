@@ -16,7 +16,8 @@ package.json::
 
 ### Bootstrap CSS
 ```
-npm install boostrap 
+npm install sass 
+npm install bootstrap 
 
 ```
 
@@ -45,6 +46,8 @@ npm install izitoster
 
 ## References 
 
+- https://vitejs.dev/config
+- https://www.javascripttutorial.net
 - https://tailwindcss.com
 - https://getbootstrap.com
 - https://fontawesome.com/search?o=r&m=free
