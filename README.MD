@@ -56,3 +56,5 @@ npm install izitoster
 - https://izitoast.marcelodolza.com
 - https://www.npmjs.com 
 - https://packagist.org 
+- https://www.php.net/download-docs.php
+- https://code.visualstudio.com/docs/terminal/appearance#_custom-glyphs  [ VS Terminal Style]
